@@ -112,7 +112,7 @@ export default function Home() {
 
       <section className="hero" id="top">
         <div className="hero-copy">
-          <p className="eyebrow">PREDICTIVE MAINTENANCE INSIGHTS</p>
+          <p className="eyebrow">INDUSTRIAL ANALYTICS · MODEL EXPLORER</p>
           <h1>Keep your operations<br /><em>one step ahead.</em></h1>
           <p className="hero-description">Explore how machine operating conditions relate to failure categories. Adjust a reading and see what the prototype predicts.</p>
         </div>
@@ -225,7 +225,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer><span>AROHA · PREDICTIVE MAINTENANCE INSIGHTS</span><span>SAMPLE DATA <b>•</b> NOT FOR SAFETY-CRITICAL USE</span></footer>
+      <footer><span>AROHA INTELLIGENCE · PREDICTIVE MAINTENANCE POC</span><span>DEMO DATA ONLY <b>•</b> NOT FOR SAFETY-CRITICAL USE</span></footer>
     </main>
   );
 }
