@@ -1,6 +1,7 @@
 "use client";
 
 import { type FormEvent, useEffect, useState } from "react";
+import Image from "next/image";
 
 type Metadata = {
   row_count: number;
@@ -105,7 +106,7 @@ export default function Home() {
   return (
     <main className="shell">
       <header className="topbar">
-        <a className="brand" href="#top"><span className="brand-mark">◈</span> AROHA <span className="brand-divider">/</span> PREDICTIVE MAINTENANCE INSIGHTS</a>
+        <a className="brand" href="#top" aria-label="Aroha Predictive Maintenance Insights home"><span className="brand-logo"><Image src="/aroha_logo.jpeg" alt="Aroha" width={140} height={140} priority /></span><span className="brand-divider">/</span> PREDICTIVE MAINTENANCE INSIGHTS</a>
         <span className="prototype-tag"><i /> INTERACTIVE PROTOTYPE</span>
       </header>
 
