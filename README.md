@@ -1,4 +1,4 @@
-# Predictive Maintenance Demo
+# Predictive Maintenance Insights
 
 Isolated client-facing prototype using the requested stack:
 
