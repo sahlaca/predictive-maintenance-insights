@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <main className="shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Aroha Predictive Maintenance Insights home"><span className="brand-logo"><Image src="/aroha_logo.jpeg" alt="Aroha" width={140} height={140} priority /></span><span className="brand-divider">/</span> PREDICTIVE MAINTENANCE INSIGHTS</a>
+        <a className="brand" href="#top" aria-label="Aroha home"><Image className="brand-logo" src="/aroha_logo.jpeg" alt="Aroha" width={86} height={34} priority /></a>
         <span className="prototype-tag"><i /> INTERACTIVE PROTOTYPE</span>
       </header>
 
@@ -172,7 +172,7 @@ export default function Home() {
         </article>
 
         <article className="panel result-panel">
-          <div className="section-heading"><div><p className="eyebrow">MODEL OUTPUT</p><h2>Prediction insight</h2></div><span className="step-chip">02 / RESULT</span></div>
+          <div className="section-heading"><div><p className="eyebrow">MODEL OUTPUT</p><h2>Prediction</h2></div><span className="step-chip">02 / RESULT</span></div>
           {!prediction ? (
             <div className="empty-result"><div className="empty-icon">⌁</div><h3>Ready when you are</h3><p>Submit a machine reading to see its predicted category and model scores.</p><div className="empty-line" /></div>
           ) : (
