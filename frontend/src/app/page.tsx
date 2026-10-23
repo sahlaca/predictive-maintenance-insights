@@ -106,7 +106,7 @@ export default function Home() {
   return (
     <main className="shell">
       <header className="topbar">
-        <a className="brand" href="#top" aria-label="Aroha Predictive Maintenance Insights home"><Image className="brand-logo" src="/aroha_logo.jpeg" alt="Aroha" width={86} height={34} priority /><span className="brand-divider">/</span> PREDICTIVE MAINTENANCE INSIGHTS</a>
+        <a className="brand" href="#top" aria-label="Aroha home"><Image className="brand-logo" src="/aroha_logo.jpeg" alt="Aroha" width={86} height={34} priority /></a>
         <span className="prototype-tag"><i /> INTERACTIVE PROTOTYPE</span>
       </header>
 
