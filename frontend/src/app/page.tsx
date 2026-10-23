@@ -194,7 +194,7 @@ export default function Home() {
       </section>
 
       <section className="operator-section">
-        <div className="operator-heading"><div><p className="eyebrow">PRACTICAL TAKEAWAYS</p><h2>What the operating data suggests</h2><p>Plain-language patterns from the project analysis to support a maintenance conversation.</p></div><span className="step-chip">FOR DISCUSSION</span></div>
+        <div className="operator-heading"><div><p className="eyebrow">EXPLORATORY DATA ANALYSIS</p><h2>What the operating data suggests</h2><p className="analysis-note">These findings are based on the dataset used in this analysis and may not apply to other machines or operating conditions.</p></div></div>
         <div className="takeaway-grid">
           <article className="takeaway-card"><span className="takeaway-number">01</span><div><h3>Watch load and speed together</h3><p>Higher torque paired with lower RPM appears with strain-related failures. Low torque with high RPM also appears in some failures; review operating context rather than treating one reading alone as a cause.</p></div><span className="takeaway-tags">TORQUE <b>×</b> RPM</span></article>
           <article className="takeaway-card"><span className="takeaway-number">02</span><div><h3>Consider tool wear under load</h3><p>Tool wear by itself is not a dependable warning in this analysis. Higher wear combined with higher torque is a pattern worth checking during inspection.</p></div><span className="takeaway-tags">TOOL WEAR <b>×</b> LOAD</span></article>
